@@ -1,0 +1,22 @@
+.mainpic {
+  display: block;
+margin: auto;
+width: 50%;
+height:auto;
+}
+
+.centerButton{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.brandpic{
+  height: 100%;
+}
+.thumbnail{
+  width: 65px;
+  height: 65px;
+}
+.checkbox{
+  padding: 10px
+}
