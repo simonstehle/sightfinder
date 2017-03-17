@@ -35,7 +35,7 @@ include_once ("header.html");
                 </li>
                 <li class="pane4">
                     <div class="img"></div>
-                    <div></div>
+                    <div>Torre de Eiffel</div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
@@ -56,7 +56,7 @@ include_once ("header.html");
         <a href="#" class="like"><i></i></a>
     </div>
     <div class="centerButton">
-        <a href="result.html" class="btn btn-success btn-lg active r" role="button">Ergebnisse anzeigen</a>
+        <a href="result.html" class="btn btn-success btn-lg active r" role="button">Show Results</a>
     </div>
 
     <!-- jTinder status text  -->

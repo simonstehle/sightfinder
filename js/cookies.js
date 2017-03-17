@@ -13,17 +13,19 @@ var prefCookieName = "userpreferences";
 function setPreference(prefNum, prefVal){
 
     var tempCookie = getCookie(prefCookieName);
-    var newCookie = "0000";
+    var newCookie = "0000000000";
 
-    if (tempCookie.length == 4){
+    if (tempCookie.length == 10){
         var front = tempCookie.substr(0,prefNum-1);
-        var back = tempCookie.slice(prefNum+1)
+        var back = tempCookie.slice(prefNum);
         newCookie = front + prefVal + back;
+        console.log(newCookie);
     }
     else {
         var front = newCookie.substr(0,prefNum-1);
-        var back = newCookie.slice(prefNum+1)
+        var back = newCookie.slice(prefNum);
         newCookie = front + prefVal + back;
+        console.log("2: "+newCookie);
     }
 
     setCookie(prefCookieName, newCookie, 100);
