@@ -1,6 +1,9 @@
 /**
  * jTinder initialization
  */
+
+
+
 $("#tinderslide").jTinder({
 	// dislike callback
     onDislike: function (item) {
@@ -26,3 +29,6 @@ $('.actions .like, .actions .dislike').click(function(e){
 	e.preventDefault();
 	$("#tinderslide").jTinder($(this).attr('class'));
 });
+
+
+
