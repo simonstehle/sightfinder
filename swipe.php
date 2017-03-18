@@ -56,7 +56,7 @@ include_once ("header.html");
         <a href="#" class="like"><i></i></a>
     </div>
     <div class="centerButton">
-        <a href="result.html" class="btn btn-success btn-lg active r" role="button">Show Results</a>
+        <a href="res.php" class="btn btn-success btn-lg active r" role="button">Show Results</a>
     </div>
 
     <!-- jTinder status text  -->

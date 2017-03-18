@@ -65,9 +65,6 @@ include_once ("header.html");
     <div class="centerButton" id="savePreferences">
         <span>Save your preferences</span>
     </div>
-    <div class="centerButton" id="loadPreferences">
-        <span>Load your preferences</span>
-    </div>
 
     <div class="centerButton">
         <a href="swipe.php" class="btn btn-success btn-lg active r" role="button">Start</a>

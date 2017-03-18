@@ -3,22 +3,21 @@
 
 <div class="container">
 
-<div class="center-block">
 
-    <img id="userPicPage" src="data/profile.jpg">
+
+    <div class="userPicPage"><img class="insidePic" src="data/defaultprofile.jpg"></div>
+
 
     <div class="left"><span id="loadUsername"></span></div>
     <div class="right"><span id="loadSurename"></span></div>
     <div class="left"><span id="loadAge"></span></div>
     <div class="right"><span id="loadGender"></span></div>
 
-</div>
-    <div class="centerButton" id="savePreferences">
-        <span>Save your preferences</span>
+
+    <div class=" btn btn-success btn-lg " id="savePreferences">
+        <span>Save Changes</span>
     </div>
-    <div class="centerButton" id="loadPreferences">
-        <span>Load your preferences</span>
-    </div>
+
 
     <div class="checkbox">
         <label>
@@ -69,10 +68,6 @@
         <label>
             <input type="checkbox" id="culinaryCB"> Culinary
         </label>
-    </div>
-
-    <div class="centerButton" id="savePreferences">
-        <span>Save your preferences</span>
     </div>
 
     <div class="centerButton">

@@ -97,4 +97,17 @@ $("#loadPreferences").click(function () {
 })
 
 
+$(document).ready(function () {
+	if(window.location.href == "http://sightfinder.fangwasan.com/profile.php"){
+        loadPreferences();
+
+    }
+    else if(window.location.href == "http://sightfinder.fangwasan.com/hello.php"){
+        loadPreferences();
+
+    }
+
+});
+
+
 
