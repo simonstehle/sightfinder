@@ -11,55 +11,53 @@ include_once ("header.html");
 ?>
 
 <div class="container">
+    <p>Get started by setting your preferences</p>
     <div class="checkbox">
-        <label>
-            <input type="checkbox" id="musicAndCultureCB"> Music and Culture
-        </label>
+            <input type="checkbox" id="musicAndCultureCB">
+        <label for="musicAndCultureCB">Music / Culture</label>
+    </div>
+
+    <div class="checkbox">
+            <input type="checkbox" id="sportsAndleisureActivitiesCB">
+        <label for="sportsAndleisureActivitiesCB">Sports / Leisure</label>
+    </div>
+
+    <div class="checkbox">
+            <input type="checkbox" id="natureCB">
+        <label for="natureCB">Nature</label>
+    </div>
+
+    <div class="checkbox">
+        <input type="checkbox" id="foodAndDrinksCB">
+        <label for="foodAndDrinksCB">Food / Drinks</label>
     </div>
     <div class="checkbox">
-        <label>
-            <input type="checkbox" id="sportsAndleisureActivitiesCB"> Sports and leisure Activities
-        </label>
+        <input type="checkbox" id="spaAndRestCB">
+        <label for="spaAndRestCB">Spa / Wellness</label>
+    </div>
+
+    <div class="checkbox">
+        <input type="checkbox" id="artsCB">
+        <label for="artsCB">Art</label>
+    </div>
+
+    <div class="checkbox">
+        <input type="checkbox" id="historyCB">
+        <label for="historyCB">History</label>
+    </div>
+
+    <div class="checkbox">
+        <input type="checkbox" id="shoppingCB">
+        <label for="shoppingCB">Shopping</label>
     </div>
     <div class="checkbox">
-        <label>
-            <input type="checkbox" id="natureCB"> Nature
-        </label>
+            <input type="checkbox" id="animalsCB">
+        <label for="animalsCB">Animals</label>
     </div>
+
     <div class="checkbox">
-        <label>
-            <input type="checkbox" id="foodAndDrinksCB"> Food and Drinks
-        </label>
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox" id="spaAndRestCB"> Spa and rest
-        </label>
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox" id="artsCB"> Arts
-        </label>
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox" id="historyCB"> History
-        </label>
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox" id="shoppingCB"> Shopping
-        </label>
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox" id="animalsCB"> Animals
-        </label>
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox" id="culinaryCB"> Culinary
-        </label>
+        <input type="checkbox" id="culinaryCB">
+        <label for="culinaryCB">Culinary</label>
     </div>
 
     <div class="centerButton" id="savePreferences">
