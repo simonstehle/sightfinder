@@ -187,6 +187,30 @@ body {
 }
 
 /* jTinder images */
+#tinderslide .pane11 .img {
+    background: url("../img/pane/pane11.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane10 .img {
+    background: url("../img/pane/pane10.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane9 .img {
+    background: url("../img/pane/pane9.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane8 .img {
+    background: url("../img/pane/pane8.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane7 .img {
+    background: url("../img/pane/pane7.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane6 .img {
+    background: url("../img/pane/pane6.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
 #tinderslide .pane5 .img {
     background: url("../img/pane/pane5.jpg") no-repeat scroll center center;
     background-size: cover;

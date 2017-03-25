@@ -17,31 +17,67 @@ include_once ("header.html");
             <ul>
                 <li class="pane1">
                     <div class="img"></div>
-                    <div></div>
+                    <div>Nordsee Beach</div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane2">
                     <div class="img"></div>
-                    <div></div>
+                    <div>"The Head", Roy Lichtenstein</div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane3">
                     <div class="img"></div>
-                    <div></div>
+                    <div>Disneyland</div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane4">
                     <div class="img"></div>
-                    <div>Torre de Eiffel</div>
+                    <div>Musee du louvre</div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
                 <li class="pane5">
                     <div class="img"></div>
-                    <div></div>
+                    <div>Lake Constance</div>
+                    <div class="like"></div>
+                    <div class="dislike"></div>
+                </li>
+                <li class="pane6">
+                    <div class="img"></div>
+                    <div>Amsterdam</div>
+                    <div class="like"></div>
+                    <div class="dislike"></div>
+                </li>
+                <li class="pane7">
+                    <div class="img"></div>
+                    <div>Black Forest traditional wedding</div>
+                    <div class="like"></div>
+                    <div class="dislike"></div>
+                </li>
+                <li class="pane8">
+                    <div class="img"></div>
+                    <div>Neuschwanstein Castle</div>
+                    <div class="like"></div>
+                    <div class="dislike"></div>
+                </li>
+                <li class="pane9">
+                    <div class="img"></div>
+                    <div>Lago Maggiore</div>
+                    <div class="like"></div>
+                    <div class="dislike"></div>
+                </li>
+                <li class="pane10">
+                    <div class="img"></div>
+                    <div>ostrich farm South Africa</div>
+                    <div class="like"></div>
+                    <div class="dislike"></div>
+                </li>
+                <li class="pane11">
+                    <div class="img"></div>
+                    <div>German museum Munich</div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>
