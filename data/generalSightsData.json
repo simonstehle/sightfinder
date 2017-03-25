@@ -1,0 +1,79 @@
+[
+ {
+   "ID_allgemein": 1,
+   "ID_alt der Sehensw�rdigkeit": 1,
+   "Bekannte Sehensw�rdigkeit": "NordseeBeach",
+   "Kategorie": "Nature",
+   "Typ": "Beach"
+ },
+ {
+   "ID_allgemein": 2,
+   "ID_alt der Sehensw�rdigkeit": 2,
+   "Bekannte Sehensw�rdigkeit": "\"The Head\" von Roy Lichtenseinstein (Barcelona)",
+   "Kategorie": "Art",
+   "Typ": "Statue"
+ },
+ {
+   "ID_allgemein": 3,
+   "ID_alt der Sehensw�rdigkeit": 12,
+   "Bekannte Sehensw�rdigkeit": "Disneyland/Europapark",
+   "Kategorie": "Attraction",
+   "Typ": "Leisurepark"
+ },
+ {
+   "ID_allgemein": 4,
+   "ID_alt der Sehensw�rdigkeit": 14,
+   "Bekannte Sehensw�rdigkeit": "Louvre",
+   "Kategorie": "Art",
+   "Typ": "Gallery"
+ },
+ {
+   "ID_allgemein": 5,
+   "ID_alt der Sehensw�rdigkeit": 18,
+   "Bekannte Sehensw�rdigkeit": "Lake Constance",
+   "Kategorie": "Nature",
+   "Typ": "Beach"
+ },
+ {
+   "ID_allgemein": 6,
+   "ID_alt der Sehensw�rdigkeit": 22,
+   "Bekannte Sehensw�rdigkeit": "Amsterdam",
+   "Kategorie": "Attraction",
+   "Typ": "City"
+ },
+ {
+   "ID_allgemein": 7,
+   "ID_alt der Sehensw�rdigkeit": 23,
+   "Bekannte Sehensw�rdigkeit": "Traditionelle Hochzeit im SchwarzForest",
+   "Kategorie": "Culture",
+   "Typ": "Folklore"
+ },
+ {
+   "ID_allgemein": 8,
+   "ID_alt der Sehensw�rdigkeit": 24,
+   "Bekannte Sehensw�rdigkeit": "Castle Neuschwanstein",
+   "Kategorie": "Building",
+   "Typ": "Castle"
+ },
+ {
+   "ID_allgemein": 9,
+   "ID_alt der Sehensw�rdigkeit": 28,
+   "Bekannte Sehensw�rdigkeit": "Lago Maggiore ",
+   "Kategorie": "Nature",
+   "Typ": "Beach"
+ },
+ {
+   "ID_allgemein": 10,
+   "ID_alt der Sehensw�rdigkeit": 33,
+   "Bekannte Sehensw�rdigkeit": "Straussenfarm S�dafrika",
+   "Kategorie": "Attraction",
+   "Typ": "Farm"
+ },
+ {
+   "ID_allgemein": 11,
+   "ID_alt der Sehensw�rdigkeit": 34,
+   "Bekannte Sehensw�rdigkeit": "Deutsches Museum M�nchen",
+   "Kategorie": "Museum",
+   "Typ": "Technology"
+ }
+]
