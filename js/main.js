@@ -207,7 +207,8 @@ function loadOneCategorie(numberInArray, tempCoockieArray) {
             //console.log(recentCategorie);
             if (field["Kategorie"] == recentCategorie.toString()) {
                 //console.log("Hier: " + recentCategorie);
-                tempHTMLCode = "<tr><td> <img src='img/12_Halmstad_Aeventyrsland.jpg' class='thumbnail'</td><td>" + field["Bezeichnung Sehenswuerdigkeit"] + "</td><td><a href='http://www.aventyrslandet.se/' target='_blank'>Homepage</a></td></tr>";
+                //TODO: thumbnail link in hallandSightsData.json
+                tempHTMLCode = "<tr><td> <img src= "+ field["ThumbnailHref"] +" class='thumbnail'</td><td>" + field["Bezeichnung Sehenswuerdigkeit"] + "</td><td><a href='http://www.aventyrslandet.se/' target='_blank'>Homepage</a></td></tr>";
 
 
                 $("#resultstable").append(tempHTMLCode);
