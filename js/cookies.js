@@ -4,7 +4,7 @@
 
 var prefCookieName = "userpreferences";
 //The cookie ist always 4 characters long! each char has a value of 0 or 1 what means like or dislike
-
+var categories = ["",""];
 /**
  *
  * @param prefNum Numer of the selection, it goes from 1 to 4
@@ -33,6 +33,28 @@ function setPreference(prefNum, prefVal){
 }
 
 
+/**
+ * This function is used in the Swipe.php we use it to
+ * count the swipes and the preferences for the user
+ * @param categoryName - use the var categories[] with the
+ * needed index
+ */
+function countAndSetCategoryIndex(categoryName) {
+
+    var tempCookie = getCookie(categoryName);
+    var newValue="";
+
+    if(tempCookie == ""){
+        newValue = "1";
+
+    }
+    else{
+        var tempValue = parseInt(tempCookie) + 1;
+        newValue = toString(tempValue);
+    }
+
+    setCookie(categoryName, newValue, 100);
+}
 
 
 

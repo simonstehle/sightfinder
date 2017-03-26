@@ -8,7 +8,33 @@ $("#tinderslide").jTinder({
 	// dislike callback
     onDislike: function (item) {
 	    // set the status text
-        $('#status').html('Dislike image ' + (item.index()+1));
+        //$('#status').html('Dislike image ' + (item.index()+1));
+
+        var temp_itemIndex = item.index()+1;
+        var runBool = true;
+        $.getJSON("../data/generalSightsData.json", function(results) {
+
+            console.log("Json ist geladen"); // this will show the info it in firebug console
+            $.each(results, function(i, field){
+                console.log("Json loop");
+                if (i == "ID_allgemein"){
+                    console.log("ID wird getestet"+i);
+                    if (field == temp_itemIndex){
+
+                        runBool = false;
+                    }
+                }
+
+                if (runBool == false){
+                    if(i == "Kategorie"){
+                        countAndSetCategoryIndex(field);
+                    }
+                }
+
+
+            });
+        });
+
     },
 	// like callback
     onLike: function (item) {
