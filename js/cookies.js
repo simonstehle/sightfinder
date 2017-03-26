@@ -4,7 +4,7 @@
 
 var prefCookieName = "userpreferences";
 //The cookie ist always 4 characters long! each char has a value of 0 or 1 what means like or dislike
-var categories = ["",""];
+var categories = ["Nature","Art","Attraction","Culture","Building","Museum"];
 /**
  *
  * @param prefNum Numer of the selection, it goes from 1 to 4
@@ -39,18 +39,25 @@ function setPreference(prefNum, prefVal){
  * @param categoryName - use the var categories[] with the
  * needed index
  */
-function countAndSetCategoryIndex(categoryName) {
+function countAndSetCategoryIndex(categoryName, likeDisklikeBool) {
 
     var tempCookie = getCookie(categoryName);
+    console.log(tempCookie);
     var newValue="";
-
-    if(tempCookie == ""){
-        newValue = "1";
+    var numberChange = 1;
+    if(likeDisklikeBool == false ){
+        numberChange = -1;
 
     }
-    else{
-        var tempValue = parseInt(tempCookie) + 1;
-        newValue = toString(tempValue);
+
+    if(tempCookie == ""){
+        newValue = (numberChange+100).toString();
+
+    }
+    else {
+
+        var tempValue = parseInt(tempCookie) + numberChange;
+        newValue = tempValue.toString();
     }
 
     setCookie(categoryName, newValue, 100);
