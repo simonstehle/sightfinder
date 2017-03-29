@@ -71,6 +71,10 @@ input[type=checkbox]:checked + label:before {
   text-shadow:0px 0px 3px #eee;
 }
 
+.detailsPagePictureClass{
+
+}
+
 /*
 .checkbox{
 text-align: center;
