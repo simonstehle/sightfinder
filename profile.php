@@ -69,6 +69,11 @@
              </div>
          </div> -->
         <div class="centerButton">
+            <div class=" btn btn-success btn-lg " id="savePreferences">
+                <span>Save Changes</span>
+            </div>
+        </div>
+        <div class="centerButton">
             <a href="swipe.php" class="btn btn-success btn-lg active r" role="button">Start</a>
         </div>
     </div>
