@@ -237,6 +237,7 @@ function getQueryVariable(variable) {
 
 function loadDetailsPage(){
     var tempHTMLCodeForTable = "";
+    var tempHtmlCodePicture ="";
     var recentID = getQueryVariable("halandid");
 
     console.log("Aktuelle ID= "+recentID);
@@ -259,6 +260,14 @@ function loadDetailsPage(){
                     "<tr><td>Price</td><td>"+field["Preise"] +"</td></tr>" +
                     "<tr><td>Short Info</td><td>"+field["Kurzinfo"] +"</td></tr>";
                 $("#detailspageTable").append(tempHTMLCodeForTable);
+
+                //Load Picture
+
+                tempHtmlCodePicture = "<img src="+field["Thumbnail"]+">";
+
+                $("#detailsPagePic").append(tempHtmlCodePicture);
+
+
             }
         })
 

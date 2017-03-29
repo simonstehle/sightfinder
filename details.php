@@ -12,6 +12,8 @@ include_once ("header.html");
 
 <div class="container">
 
+    <div  class="thumbnail" id="detailsPagePic"></div>
+
     <table class="table" id="detailspageTable">
 
     </table>
