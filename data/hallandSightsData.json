@@ -13,8 +13,8 @@
    "Adresse": "302 73 Halmstad, Sweden",
    "Oeffnungszeiten": "n/a",
    "Preise": "n/a",
-   "Kurzinfo": "A idyllic beach located near Halmstad. Perfect f�r swimming or other water sports. ",
-   "Thumbnail": "../img/result/result/01_Tylösand_Strand.jpg"
+   "Kurzinfo": "A idyllic beach located near Halmstad. Perfect for swimming or other water sports. ",
+   "Thumbnail": "../img/result/result/01_Tyloesand_Strand.jpg"
  },
  {
    "ID_Halland": 2,
@@ -44,8 +44,8 @@
    "Year of construction": null,
    "Interesse#1": "History",
    "Interesse#2": "Music&Culture",
-   "Adresse": "Berte Qvarn\n31167 Sl�inge",
-   "Oeffnungszeiten": "June - August Thu - Fri 10:00 - 16:00 , Sun 13:00 - 17:00 �\n April, May, September Sun 13:00 - 17:00 ",
+   "Adresse": "Berte Qvarn\n31167 Slöinge",
+   "Oeffnungszeiten": "June - August Thu - Fri 10:00 - 16:00 , Sun 13:00 - 17:00 \n April, May, September Sun 13:00 - 17:00 ",
    "Preise": "Adults 80:- Skr\nYoungsters 20:- Skr\n Children bis 12 Jahre frei ",
    "Kurzinfo": "Historical outdoor museum which shows life at the country 100 years ago. ",
    "Thumbnail": "../img/result/03_Berte_Museum.jpg"
@@ -63,7 +63,7 @@
    "Interesse#2": "",
    "Adresse": "Sandgatan 13 A\n31123 Falkenberg",
    "Oeffnungszeiten": "End of June - End of August Tue - Thu 14:00 - 18:00, Sun 14:00 - 17:00  | on appointment\n",
-   "Preise": "�Adults/Youngsters 50:- Skr\nChildren till age 12 free",
+   "Preise": "Adults/Youngsters 50:- Skr\nChildren till age 12 free",
    "Kurzinfo": "A museum in Falkenberg which is dedicated to photogarphy.",
    "Thumbnail": "../img/result/04_Fotomuseet_Olympia.jpg"
  },
@@ -78,7 +78,7 @@
    "Year of construction": null,
    "Interesse#1": "Sports&Leisure",
    "Interesse#2": "",
-   "Adresse": "Gamla Tyl�sandsv�gen 1, 302 41 Halmstad",
+   "Adresse": "Gamla Tyloesandsvaegen 1, 302 41 Halmstad",
    "Oeffnungszeiten": "seasonal, depends on weather",
    "Preise": "seasonal",
    "Kurzinfo": "Big amusment park in Halmstad. Perfekt for children. ",
@@ -95,16 +95,16 @@
    "Year of construction": null,
    "Interesse#1": "Art",
    "Interesse#2": "",
-   "Adresse": "Markarydsv�gen 10\n31021 Hishult",
+   "Adresse": "Markarydsvaegen 10\n31021 Hishult",
    "Oeffnungszeiten": "May - August: Thu - Sun 12:00 - 17:00| September - April: Wed - Sun 12:00 - 16:00 ",
-   "Preise": "�Adults/Youngsters starting age 15 70:- Skr | Children free",
+   "Preise": "Adults/Youngsters starting age 15 70:- Skr | Children free",
    "Kurzinfo": "Art gallery with six different exhibitions per year. The property also includes a garden with nice sculptures and a cafe. ",
    "Thumbnail": "../img/result/06_Konsthallen_Hishult.jpg"
  },
  {
    "ID_Halland": 7,
    "ID_alt": 18,
-   "Bezeichnung Sehenswuerdigkeit": "Lake Massj�",
+   "Bezeichnung Sehenswuerdigkeit": "Lake Massjoe",
    "Kategorie": "Nature",
    "Typ": "Beach",
    "Merkmal#1(optional)": "Public",
@@ -129,11 +129,11 @@
    "Year of construction": null,
    "Interesse#1": "Nature",
    "Interesse#2": "Nature",
-   "Adresse": "Lassav�gen 1\n43293 Varberg-Getter�n",
+   "Adresse": "Lassavaegen 1\n43293 Varberg-Getteroen",
    "Oeffnungszeiten": "March - October dayli 10:00 - 16:00  (17:00 in Summer) | November - February Fri - Sun 10:00 - 16:00",
    "Preise": "Admission free",
    "Kurzinfo": "Nature reserve and bird sanctuary. ",
-   "Thumbnail": "../img/result/08_Natutum_Getterön.jpg"
+   "Thumbnail": "../img/result/08_Natutum_Getteroen.jpg"
  },
  {
    "ID_Halland": 9,
@@ -180,9 +180,9 @@
    "Year of construction": 1904,
    "Interesse#1": "",
    "Interesse#2": "",
-   "Adresse": "Tjol�holms Slott\n439 74 Fj�r�s",
+   "Adresse": "Tjolöholms Slott\n439 74 Fjaeraes",
    "Oeffnungszeiten": "seasonal",
-   "Preise": "Adults: 120 SEK. Busy season June � August: 150 SEK,\nChildren und Youngsters (5 � 15 Jahre): 25 SEK. Busy season June � August: 50 SEK.\n",
+   "Preise": "Adults: 120 SEK. Busy season June - August: 150 SEK,\nChildren und Youngsters (5 - 15 Jahre): 25 SEK. Busy season June - August: 50 SEK.\n",
    "Kurzinfo": "The castle was build in 1904 in the tudor style. ",
    "Thumbnail": "../img/result/11_schloss_tjoloeholm.jpg"
  },
@@ -214,7 +214,7 @@
    "Year of construction": null,
    "Interesse#1": "Shopping",
    "Interesse#2": "",
-   "Adresse": "�str�� \n432 77 Tv��ker ",
+   "Adresse": "Oestroeoe \n432 77 Tvaeaeker ",
    "Oeffnungszeiten": "seasonal",
    "Preise": "",
    "Kurzinfo": "The sheep farm is a nice location for families. You can also buy self produced goods in the farmers shop.",
@@ -251,7 +251,7 @@
    "Adresse": "Castle Skottorp",
    "Oeffnungszeiten": "May 1, 2017\n10 - 15 \n",
    "Preise": "n/a",
-   "Kurzinfo": "On 1 May it�s time to let the cows out at the castle in Skottorp between 10 am and 3 pm. After a long wait indoors, they will be released out into the open at 11 am and 11.30 am � a magnificent sight in the beautiful castle surroundings. During the day you can visit the dairy, where cheddar and a variety of cheeses typical of the local area are made, or enjoy a delicious cup of coffee in the castle caf�.",
+   "Kurzinfo": "On 1 May it's time to let the cows out at the castle in Skottorp between 10 am and 3 pm. After a long wait indoors, they will be released out into the open at 11 am and 11.30 am � a magnificent sight in the beautiful castle surroundings. During the day you can visit the dairy, where cheddar and a variety of cheeses typical of the local area are made, or enjoy a delicious cup of coffee in the castle caf�.",
    "Thumbnail": "../img/result/15_Letting_the_cows_out_at_Skottorps_Slott.jpg"
  },
  {
@@ -266,7 +266,7 @@
    "Interesse#1": "",
    "Interesse#2": "",
    "Adresse": "Halmstad Hafen",
-   "Oeffnungszeiten": "June 30, 2017� �� July 3, 2017� Mo, Fri - Sun� ",
+   "Oeffnungszeiten": "June 30, 2017 - July 3, 2017 Mo, Fri - Sun ",
    "Preise": "n/a",
    "Kurzinfo": "In summer 2017 Halmstad harbour will be packed with training ships and seafaring vessels of all shapes and sizes. After Halmstad harbour successfully hosted and was the final destination of the Tall Ships Races in 2011, Sail Training International has now given the go-ahead for Halmstad as starting port. The race was one of the biggest events Halmstad has ever seen and this time it is expected, if possible, to be even bigger. After the start in Halmstad, the ships will sail to Kotka and then Turku in Finland, then Klaipeda in Lithuania with Szczecin in Poland as the finishing harbour and final destination.\n",
    "Thumbnail": "../img/result/16_The_Tall_Ships_Race.jpg"
@@ -283,9 +283,9 @@
    "Interesse#1": "",
    "Interesse#2": "",
    "Adresse": "Figarosalen Halmstads Teater",
-   "Oeffnungszeiten": "May 13, 2017  �  May 13, 2017  Sat  18:30  ",
+   "Oeffnungszeiten": "May 13, 2017  -  May 13, 2017  Sat  18:30  ",
    "Preise": "",
-   "Kurzinfo": "The Met is now staging Richard Strauss� romantic masterpiece Der Rosenkavalier for the first time since 1969. The Operaa is conducted by the Met�s principal conductor James Levine and directed by Robert Carsen, whose most recent Met production was the 2013 success Falstaff. Ren�e Fleming sings one of her favourite roles as the Marschallin, opposite El?na Garan?a, in her first north American role, as Octavian, the impulsive young title character.",
+   "Kurzinfo": "The Met is now staging Richard Strauss romantic masterpiece Der Rosenkavalier for the first time since 1969. The Operaa is conducted by the Met�s principal conductor James Levine and directed by Robert Carsen, whose most recent Met production was the 2013 success Falstaff. Ren�e Fleming sings one of her favourite roles as the Marschallin, opposite El?na Garan?a, in her first north American role, as Octavian, the impulsive young title character.",
    "Thumbnail": "../img/result/17_Opera.jpg"
  },
  {
@@ -300,7 +300,7 @@
    "Interesse#1": "",
    "Interesse#2": "",
    "Adresse": "Halmstad Arena",
-   "Oeffnungszeiten": "April 29, 2018  �  May 6, 2018  Mon - Sun  ",
+   "Oeffnungszeiten": "April 29, 2018  -  May 6, 2018  Mon - Sun  ",
    "Preise": "",
    "Kurzinfo": "Between the 29th of April and 6th of May 2018 LIEBHERR World Team Table Tennis Championships will be held in Halmstad Arena, Sweden. Without doubt, this championships will be the biggest sport event ever in the city of Halmstad�s history.",
    "Thumbnail": "../img/result/18_Table_Tennis_WTC18.jpg"
@@ -317,7 +317,7 @@
    "Interesse#1": "",
    "Interesse#2": "",
    "Adresse": "Mjellby Konstmuseum",
-   "Oeffnungszeiten": "March 19, 2016� �� May 1, 2016� Sat - Sun� 13:00� �� 13:30� \nMay 9, 2016� �� May 21, 2016� Sat - Sun� 13:00� �� 13:30� \nMay 28, 2016� �� June 19, 2016� Sat - Sun� 13:00� �� 13:30� \nJuly 3, 2016� �� July 16, 2016� Mon - Sun� 12:00� �� 13:00� \nJuly 18, 2016� �� August 14, 2016� Mon - Sun� 12:00� �� 13:00� \nAugust 20, 2016� �� September 25, 2016� Sat - Sun� 13:00� �� 13:30� \nOctober 9, 2016� �� December 18, 2016� Sat - Sun� 13:00� �� 13:30� \nJanuary 7, 2017� �� January 29, 2017� Sat - Sun� 13:00� �� 13:30� \nFebruaryy 12, 2017� �� May 21, 2017� Sat - Sun� 13:00� �� 13:30� \n",
+   "Oeffnungszeiten": "March 19, 2016 - May 1, 2016 Sat - Sun 13:00 - 13:30 \nMay 9, 2016 - May 21, 2016 Sat - Sun 13:00 - 13:30 \nMay 28, 2016 - June 19, 2016 Sat - Sun 13:00 - 13:30 \nJuly 3, 2016 - July 16, 2016 Mon - Sun 12:00 - 13:00 \nJuly 18, 2016 - August 14, 2016 Mon - Sun 12:00 - 13:00 \nAugust 20, 2016 September 25, 2016 Sat - Sun 13:00 - 13:30 \nOctober 9, 2016 December 18, 2016 Sat - Sun 13:00 - 13:30 \nJanuary 7, 2017 January 29, 2017 Sat - Sun 13:00 - 13:30 \nFebruaryy 12, 2017 - May 21, 2017 Sat - Sun 13:00 - 13:30 \n",
    "Preise": "",
    "Kurzinfo": "\"MJELLBY ART MUSEUM houses a large, permanent collection of the works of the Halmstad Group, enabling it to host both broad-based exhibitions and themed features. \nIn 2015 we will be focusing on the six individual artists who were attracted by the expression of modernism and travelled to Stockholm, Berlin or Paris in the 1920s to expand their education. We will also look at how they returned home to Sweden after a while to seek out like-minded people and establish a new art movement. \nThe Halmstad Group was formed in 1929 with the intention of joining forces to create facilities to host exhibitions and to offer artistic inspiration to one another. The artists adopted the expressions of cubism, constructivism and surrealism, but also established themselves as respected set designers, stylish illustrators and skilled decorators of the urban environment. \nThe Halmstad Group enjoyed tremendous national success and their art continues to fascinate many to this day!\"",
    "Thumbnail": "../img/result/19_The_Halmstad_Group.jpg"
@@ -334,7 +334,7 @@
    "Interesse#1": "",
    "Interesse#2": "",
    "Adresse": "Teckningsmuseet i Laholm",
-   "Oeffnungszeiten": "January 28, 2017� �� May 14, 2017� Tue - Fri� 10:00� �� 16:30� \nJanuary 28, 2017� �� May 14, 2017� Sat - Sun� 12:00� �� 16:00� \n",
+   "Oeffnungszeiten": "January 28, 2017 - May 14, 2017 Tue - Fri 10:00 - 16:30 \nJanuary 28, 2017 - May 14, 2017 Sat - Sun 12:00 - 16:00 \n",
    "Preise": "",
    "Kurzinfo": "This spring we show the work of Kristina Digman at the Museum of Drawings. Illustrations and images from a rich collection of books. You will meet characters such as \"Flora\", \"Katt kan\", \"R�dda sp�ket\" and many, many more. Experience the images in interactive fairylands in this inspiring exhibition for children and families. In our drawing studie downstairs you can create own images, stories and do crafts with inspiration from Kristina's books.",
    "Thumbnail": "../img/result/20_Kristina_Digman_Exhibition.jpg"
