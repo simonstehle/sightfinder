@@ -18,7 +18,11 @@ include_once ("header.html");
 
     </table>
 
-
+    <div class="centerButton">
+        <div class=" btn btn-success btn-lg " id="">
+            <a href="res.php">Back to Results</a>
+        </div>
+    </div>
 
 </div>
 

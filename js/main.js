@@ -263,7 +263,7 @@ function loadDetailsPage(){
 
                 //Load Picture
 
-                tempHtmlCodePicture = "<img src="+field["Thumbnail"]+">";
+                tempHtmlCodePicture = "<img src="+field["Thumbnail"]+" class='img-rounded img-responsive'>";
 
                 $("#detailsPagePic").append(tempHtmlCodePicture);
 
