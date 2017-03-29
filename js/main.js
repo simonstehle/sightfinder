@@ -208,7 +208,7 @@ function loadOneCategorie(numberInArray, tempCoockieArray) {
             if (field["Kategorie"] == recentCategorie.toString()) {
                 //console.log("Hier: " + recentCategorie);
                 //TODO: thumbnail link in hallandSightsData.json
-                tempHTMLCode = "<tr><td> <img src= "+ field["Thumbnail"] +" class='thumbnail'</td><td>" + field["Bezeichnung Sehenswuerdigkeit"] + "</td><td><a href='details.php?halandid="+field["ID_Halland"] +"' >Homepage</a></td></tr>";
+                tempHTMLCode = "<tr><td> <img src= "+ field["Thumbnail"] +" class='thumbnail'</td><td>" + field["Bezeichnung Sehenswuerdigkeit"] + "</td><td><a href='details.php?halandid="+field["ID_Halland"] +"' >Detail page</a></td></tr>";
 
 
                 $("#resultstable").append(tempHTMLCode);
