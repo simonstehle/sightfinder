@@ -1,7 +1,7 @@
 /**
  * jTinder initialization
  */
-
+var addresse;
 
 
 $("#tinderslide").jTinder({
@@ -236,6 +236,8 @@ function getQueryVariable(variable) {
 }
 
 function loadDetailsPage(){
+
+
     var tempHTMLCodeForTable = "";
     var tempHtmlCodePicture ="";
     var recentID = getQueryVariable("halandid");
@@ -250,6 +252,7 @@ function loadDetailsPage(){
             //console.log(field["Kategorie"]);
             //console.log(recentCategorie);
             if (field["ID_Halland"] == recentID.toString()) {
+                addresse = field["Adresse"];
                 tempHTMLCodeForTable = "<tr><td>ID</td><td>"+field["ID_Halland"] +"</td></tr>" +
                     "<tr><td>Name</td><td>"+field["Bezeichnung Sehenswuerdigkeit"] +"</td></tr>" +
                     "<tr><td>Category</td><td>"+field["Kategorie"] +"</td></tr>" +
@@ -274,7 +277,48 @@ function loadDetailsPage(){
     });
 
 
+
+
 }
+
+
+
+function initMap() {
+    var geocoder = new google.maps.Geocoder();
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 8
+        //center: {lat: -34.397, lng: 150.644}
+    });
+    document.getElementById('submit').addEventListener('click', function() {
+
+        if(addresse == ""){
+            addresse = "Hallands län";
+        }
+        geocodeAddress(geocoder, map, addresse );
+    });
+
+}
+
+function geocodeAddress(geocoder, resultsMap, adressenString) {
+
+
+
+    geocoder.geocode({'address': adressenString}, function(results, status) {
+        console.log(adressenString);
+        if (status === google.maps.GeocoderStatus.OK) {
+            resultsMap.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+                map: resultsMap,
+                position: results[0].geometry.location
+            });
+            console.log(results[0].geometry.location);
+        } else {
+            alert('Geocode was not successful for the following reason: ' + status);
+        }
+    });
+}
+
 
 
 $(document).ready(function () {
