@@ -76,6 +76,11 @@
         <div class="centerButton">
             <a href="swipe.php" class="btn btn-success btn-lg active r" role="button">Start</a>
         </div>
+        <div class="centerButton">
+        <div class=" btn btn-success btn-lg " id="resetAllCookies">
+            <span>Reset All</span>
+        </div>
+    </div>
     </div>
 
 

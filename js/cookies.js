@@ -32,6 +32,23 @@ function setPreference(prefNum, prefVal){
 
 }
 
+function resetCookies(boolPref, boolSwipes){
+
+    if(boolPref == true){
+        setCookie(prefCookieName, "0000000000", 100);
+
+    }
+    if(boolSwipes == true){
+        for (i=0;i<categories.length; i++){
+
+            setCookie(categories[i], "100", 100);
+
+        }
+
+    }
+
+}
+
 
 /**
  * This function is used in the Swipe.php we use it to

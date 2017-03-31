@@ -147,6 +147,14 @@ $("#loadPreferences").click(function () {
 
 });
 
+$("#resetAllCookies").click(function () {
+    resetCookies(true,true);
+    window.location = "http://sightfinder.fangwasan.com/hello.php";
+});
+
+
+
+
 function sortFunction(a, b) {
     if (a[0] === b[0]) {
         return 0;
